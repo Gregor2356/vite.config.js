@@ -1,0 +1,27 @@
+.searchBut {
+    outline: none;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+* {
+    color: #2B2D42;
+}
+
+.d-grid-product {
+    grid-template-columns: repeat(4, auto);
+    grid-column-gap:10em;
+    margin-top: 7em;
+}
+.info-grid {
+    grid-template-columns: repeat(4, auto);
+    grid-column-gap:5em;
+}
+
+.link-offset-2 {
+    color: white;
+}
+.link-offset-2:hover{
+    color: #d3d3d3;
+    transition: 0.5s;
+}
